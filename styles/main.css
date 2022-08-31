@@ -1,0 +1,81 @@
+body {
+    /*background-color: #252525;*/
+    background-color: white;
+
+    margin: 0;
+
+    width: 400px;
+    height: 400px;
+
+    padding: 0 ;
+
+    font-family: 'Nunito', 'Trebuchet MS', sans-serif, Arial;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.logo {
+    color: white;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+.header {
+    background-color: #5433FF;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header div, a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 1.6em;
+    margin: 0;
+    color: white;
+    margin-left: 5px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.b {
+    border-radius: 30px;
+    border: 0;
+}
+
+.selected {
+    background-color: #5433FF;
+}
+
+.custominput {
+    max-width: 50px;
+}
+
+.c {
+    border: 0;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.special {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
