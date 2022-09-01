@@ -4,7 +4,7 @@ An Chrome extension that will create a password for you
 
 Download the extension: [Download here!](https://chrome.google.com/webstore/detail/movie-randomizer/bbjjbpkdajkppdolecmamlffinlbjecl)
 
-<p align="center"><img src="https://i.imgur.com/gp5UQCs.png" width="400" height="400" alt="Layout of the website"></p>
+<p align="center"><img src="https://i.imgur.com/gp5UQCs.png" height="400" alt="Layout of the website"></p>
 
 ## 🔧 How to execute it
 ```
@@ -33,9 +33,9 @@ https://chrome.google.com/webstore/detail/movie-randomizer/bbjjbpkdajkppdolecmam
 
 ## 🕹️ How to use it
 
-<p align="center"><img src="https://i.imgur.com/FM1mrBf.png" width="300" alt="Settings page"></p>
+<p align="center"><img src="https://i.imgur.com/FM1mrBf.png" height="400" alt="Settings page"></p>
 
-<p align="center"><img src="https://i.imgur.com/S0CLG4l.jpg" width="300" alt="Movie page"></p>
+<p align="center"><img src="https://i.imgur.com/5w4eRXz.png" height="400" alt="Movie page"></p>
 
 ## 📝 Additional Note
 
