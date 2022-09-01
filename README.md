@@ -2,14 +2,14 @@
 
 An Chrome extension that will create a password for you
 
-Download the extension: [Download here!](https://chrome.google.com/webstore/detail/movie-randomizer/bbjjbpkdajkppdolecmamlffinlbjecl)
+Download the extension: [Download here!](https://chrome.google.com/webstore/detail/password-generator/kcknlpcepfgopefakoggnhigppgabfho)
 
 <p align="center"><img src="https://i.imgur.com/gp5UQCs.png" width="600" alt="Promo image"></p>
 
 ## 🔧 How to execute it
 ```
 1. Go the google extension page (link below) using your Google Chrome browser (or chromium based browser).
-https://chrome.google.com/webstore/detail/movie-randomizer/bbjjbpkdajkppdolecmamlffinlbjecl
+https://chrome.google.com/webstore/detail/password-generator/kcknlpcepfgopefakoggnhigppgabfho
 
 2. Click on the download button.
 
