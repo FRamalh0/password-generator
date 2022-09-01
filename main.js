@@ -27,7 +27,6 @@ function addListeners() {
 function changeCharacter(number) {
     
     length = number;
-    console.log(number);
 
     for(const element of document.getElementsByClassName('b')) {
         if(element.innerHTML == number) {
@@ -45,8 +44,6 @@ function changeCharacter(number) {
     }
 
 }
-
-
 
 function genP() {
 
@@ -102,6 +99,5 @@ function changeMsgForASecond(msg) {
         },
         1000
     );
-
 
 }
