@@ -47,20 +47,27 @@ function changeCharacter(number) {
 
 function genP() {
 
+    document.getElementsByClassName('p')[0].innerHTML = p();
+
+}
+
+function p() {
+
     let localchar = charset;
     let locallenght = length;
 
+    let hasNumber = document.getElementsByClassName("numbers")[0].checked;
+    let hasSymbol = document.getElementsByClassName("symbols")[0].checked;
+
     //IF NUMBER IS CHECKED
-    if(document.getElementsByClassName("numbers")[0].checked){
+    if(hasNumber){
         localchar += charnumbers;
     }
     
     //IF SYMBOLS IS CHECKED
-    if (document.getElementsByClassName("symbols")[0].checked){
+    if (hasSymbol){
         localchar += charsymbols;
     }
-
-    console.log(localchar);
 
     if(locallenght == -1) {
         locallenght = document.querySelector('input').value;
@@ -76,8 +83,31 @@ function genP() {
         out += localchar.charAt(Math.floor(Math.random() * localchar.length));
     }
 
-    document.getElementsByClassName('p')[0].innerHTML = out;
+    //VERIFY IF CONTAINS OR NOT NUMBERS OR SYMBOLS (IF THE USER WANTS)
+    if((hasNumber && !checkNumbers(out)) || 
+        (hasSymbol && !checkSymbol(out))) {
+        return p();
+    }
+    
+    return out;
+}
 
+function checkSymbol(input) {
+    for(let i = 0; i < input.length; ++i){
+        if(charsymbols.includes(input.charAt(i))){
+            return true;
+        }
+    } 
+    return false;
+}
+
+function checkNumbers(input) {
+    for(let i = 0; i < input.length; ++i){
+        if(charnumbers.includes(input.charAt(i))){
+            return true;
+        }
+    } 
+    return false;
 }
 
 function copyToClip() {
